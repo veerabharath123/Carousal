@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="main">
+        <video id="main-img" autoplay loop muted >
+            <source src="" type="video/mp4">
+          </video>
+        <div class="animate-bg">
+            <div class="animate-bg-col-sm">
+                <div class="right-slider"></div>
+            </div>
+            <div class="animate-bg-col">
+                <div class="right-slider"></div>
+            </div>
+            <div class="animate-bg-col">
+                <div class="right-slider"></div>
+            </div>
+            <div class="animate-bg-col">
+                <div class="right-slider"></div>
+            </div>
+            <div class="animate-bg-col">
+                <div class="right-slider"></div>
+            </div>
+            <div class="animate-bg-col">
+                <div class="right-slider"></div>
+            </div>
+            <div class="animate-bg-col-sm">
+                <div class="right-slider"></div>
+            </div>
+        </div>
+        <div class="side-bar d-center-c">
+            <div class="grow animate-grow"></div>
+            <div class="d-center">
+                <ul class="d-center-c">
+                    <li class="pointer active-pointer">01</li>
+                    <li class="pointer">02</li>
+                    <li class="pointer">03</li>
+                    <li class="pointer">04</li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="nav-bar d-center">
+                <span class="logo-text">Travel Guide</span>
+                <div class="nav-menu">
+                    <ul>
+                        <li><a href="#" class="no-decor">Menu 1</a></li>
+                        <li><a href="#" class="no-decor">Menu 2</a></li>
+                        <li>
+                            <a href="#" class="no-decor">Menu 3</a>
+                        </li>
+                        <li>
+                            <button class="icon-btn" id="search" data-toggle-panel data-panel-id="#search-panel"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sub-content scroll-invisble">
+                <div class="box-card" style="margin-top: 20px">
+                
+                    <img src="https://images.unsplash.com/photo-1603477849227-705c424d1d80?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dHJvcGljYWwlMjBiZWFjaHxlbnwwfHwwfHx8MA%3D%3D" id="hs-img"/>
+                    <!-- <div class="desc">
+                        <p>
+                            Whether it's a breathtaking mountain panorama, a serene ocean vista, or a city skyline at sunset, an awesome view has the power to inspire and leave a lasting impression on those who experience it.
+                        </p>
+                    </div> -->
+                    <div class="title-div d-center-c">
+                        <span id="title" class="animate-slide-up"></span>
+                        <div class="desc animate-slide-up" style="width:50%">
+                            <p>
+                            </p>
+                            <a href="#" class="no-decor"><i class="fa-solid fa-arrow-right bouncing-element icon"></i></a>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="left-slider ls">
+    
+                    </div>
+                    <i class="fa-solid fa-volume-high audio icon"></i>
+                    <audio src="Images/waterfall.mp3" id="audio" autoplay>
+                    </audio>
+                </div>
+                <div class="sections">
+                    <div>
+                        <b>content 1</b>
+                        <p>
+                            summary
+                        </p>
+                    </div>
+                    <div >
+                        <b>content 2</b>
+                        <p>
+                            summary
+                        </p>
+                    </div>
+                    <div >
+                        <b>content 3</b>
+                        <p>
+                            summary
+                        </p>
+                    </div>
+                </div>
+                <div class="sections">
+                    <div>
+                        <b>content 1</b>
+                        <p>
+                            summary
+                        </p>
+                    </div>
+                    <div >
+                        <b>content 2</b>
+                        <p>
+                            summary
+                        </p>
+                    </div>
+                    <div >
+                        <b>content 3</b>
+                        <p>
+                            summary
+                        </p>
+                    </div>
+                </div>
+                <div class="sections">
+                    <div>
+                        <b>content 1</b>
+                        <p>
+                            summary
+                        </p>
+                    </div>
+                    <div >
+                        <b>content 2</b>
+                        <p>
+                            summary
+                        </p>
+                    </div>
+                    <div >
+                        <b>content 3</b>
+                        <p>
+                            summary
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="side-bar-right d-center">
+            <div class="d-around">
+                <span><a href="#" class="no-decor">INSTAGRAM</a></span>
+                <span><a href="#" class="no-decor">FACEBOOK</a></span>
+                <span><a href="#" class="no-decor">TWITTER</a></span>
+            </div>
+        </div>
+
+
+        <div class="panel-bg" id="search-panel">
+            <div>
+                <input type="search" class="ctrl"/>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script async src="./scripts.js"></script>
+</body>
+</html>
